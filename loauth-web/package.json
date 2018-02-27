@@ -1,0 +1,8 @@
+{
+  "name": "loauth-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jamy Timmermans <me@jamy.be>",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "loauth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JamyDev/loauth.git",
+  "author": "Jamy Timmermans <me@jamy.be>",
+  "license": "MIT",
+  "private": true,
+
+  "workspaces": ["loauth-api", "loauth-web"]
+}
