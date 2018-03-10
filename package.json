@@ -6,6 +6,9 @@
   "author": "Jamy Timmermans <me@jamy.be>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "true"
+  },
 
   "workspaces": ["loauth-api", "loauth-web"]
 }
