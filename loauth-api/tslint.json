@@ -1,21 +1,15 @@
 {
     "extends": "tslint-microsoft-contrib",
-    "rulesDirectory": [
-        "node_modules/tslint-microsoft-contrib"
-    ],
     "rules": {
         "no-multiline-string": false,
         "arrow-parens": [true, "ban-single-arg-parens"],
         "max-file-line-count": [true, 600],
         "jsdoc-format": true,
-        //"cyclomatic-complexity": [true, 20],
         "space-before-function-paren": [true, "never"],
 
-        // Basic w/ types
-        "no-for-in-array": false, // These are disables as `--type-check` causes a crash with the angular compiler.
+        "no-for-in-array": false,
         "restrict-plus-operands": false,
 
-        // Microsoft
         "no-relative-imports": false,
         "mocha-no-side-effect-code": false,
         "missing-jsdoc": false,
@@ -51,9 +45,9 @@
         ],
         "no-stateless-class": false,
         "insecure-random": false,
-        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"], // for unused params
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
 
-        "no-suspicious-comment": false, // For the duration of pre-release development these will be fine, rm and fix on before release.
+        "no-suspicious-comment": false,
         "no-string-literal": false,
         "no-string-throw": true,
         "no-empty-line-after-opening-brace": true,

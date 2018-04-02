@@ -4,5 +4,8 @@
   "main": "index.js",
   "author": "Jamy Timmermans <me@jamy.be>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+      "test": "true"
+  }
 }

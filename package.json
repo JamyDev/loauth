@@ -7,7 +7,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "true"
+    "test": "npm run test:api && npm run test:web",
+    "test:api": "cd loauth-api && npm run test",
+    "test:web": "cd loauth-web && npm run test"
   },
 
   "workspaces": ["loauth-api", "loauth-web"]
