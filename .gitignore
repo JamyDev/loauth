@@ -48,3 +48,4 @@ jspm_packages
 /loauth-api/lib
 /loauth-web/dist
 /loauth-web/lib
+database.sqlite3

@@ -4,6 +4,7 @@
         "forceConsistentCasingInFileNames": true,
         "allowSyntheticDefaultImports": true,
         "strict": true,
+        "strictPropertyInitialization": false,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "moduleResolution": "node",
@@ -19,7 +20,7 @@
         "target": "es5",
         "outDir": "lib",
         "lib": [
-            "es5",
+            "es6",
             "dom",
             "es2015.collection",
             "es2015.promise",
