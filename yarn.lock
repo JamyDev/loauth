@@ -8,6 +8,13 @@
   dependencies:
     samsam "1.3.0"
 
+"@types/body-parser@*":
+  version "1.16.8"
+  resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.16.8.tgz#687ec34140624a3bec2b1a8ea9268478ae8f3be3"
+  dependencies:
+    "@types/express" "*"
+    "@types/node" "*"
+
 "@types/bunyan@*":
   version "1.8.4"
   resolved "https://registry.yarnpkg.com/@types/bunyan/-/bunyan-1.8.4.tgz#69c11adc7b50538d45fb68d9ae39d062b9432f38"
@@ -19,13 +26,50 @@
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.2.tgz#f1af664769cfb50af805431c407425ed619daa21"
 
+"@types/client-sessions@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@types/client-sessions/-/client-sessions-0.8.0.tgz#2ef59fe90d7ee8be8d6a74d2b8f271c7f360910e"
+  dependencies:
+    "@types/cookies" "*"
+    "@types/node" "*"
+
 "@types/config@^0.0.34":
   version "0.0.34"
   resolved "https://registry.yarnpkg.com/@types/config/-/config-0.0.34.tgz#123f91bdb5afdd702294b9de9ca04d9ea11137b0"
 
+"@types/connect@*":
+  version "3.4.31"
+  resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.31.tgz#1f92d6b117ecc05076c49ecd024f7976e528bad9"
+  dependencies:
+    "@types/node" "*"
+
+"@types/cookies@*":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.7.1.tgz#f9f204bd6767d389eea3b87609e30c090c77a540"
+  dependencies:
+    "@types/connect" "*"
+    "@types/express" "*"
+    "@types/keygrip" "*"
+    "@types/node" "*"
+
 "@types/events@*":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
+
+"@types/express-serve-static-core@*":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.11.1.tgz#f6f7212382d59b19d696677bcaa48a37280f5d45"
+  dependencies:
+    "@types/events" "*"
+    "@types/node" "*"
+
+"@types/express@*":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.11.1.tgz#f99663b3ab32d04cb11db612ef5dd7933f75465b"
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
+    "@types/serve-static" "*"
 
 "@types/fs-extra@5.0.1":
   version "5.0.1"
@@ -49,6 +93,10 @@
   version "9.12.2"
   resolved "https://registry.yarnpkg.com/@types/highlight.js/-/highlight.js-9.12.2.tgz#6ee7cd395effe5ec80b515d3ff1699068cd0cd1d"
 
+"@types/keygrip@*":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@types/keygrip/-/keygrip-1.0.1.tgz#ff540462d2fb4d0a88441ceaf27d287b01c3d878"
+
 "@types/lodash@4.14.104":
   version "4.14.104"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.104.tgz#53ee2357fa2e6e68379341d92eb2ecea4b11bb80"
@@ -56,6 +104,10 @@
 "@types/marked@0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@types/marked/-/marked-0.3.0.tgz#583c223dd33385a1dda01aaf77b0cd0411c4b524"
+
+"@types/mime@*":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
 "@types/minimatch@*", "@types/minimatch@3.0.3":
   version "3.0.3"
@@ -68,6 +120,19 @@
 "@types/node@*", "@types/node@^9.3.0":
   version "9.4.7"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.7.tgz#57d81cd98719df2c9de118f2d5f3b1120dcd7275"
+
+"@types/passport-google-oauth@^1.0.37":
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/@types/passport-google-oauth/-/passport-google-oauth-1.0.37.tgz#b43f773721b20583a59615b191e33a1163d09203"
+  dependencies:
+    "@types/express" "*"
+    "@types/passport" "*"
+
+"@types/passport@*", "@types/passport@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@types/passport/-/passport-0.4.3.tgz#ca4f9611fb67d0c5d581a9005e9b89a2f5e91a3a"
+  dependencies:
+    "@types/express" "*"
 
 "@types/restify-plugins@^1.5.11":
   version "1.5.11"
@@ -83,6 +148,13 @@
     "@types/bunyan" "*"
     "@types/node" "*"
     "@types/spdy" "*"
+
+"@types/serve-static@*":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.1.tgz#1d2801fa635d274cd97d4ec07e26b21b44127492"
+  dependencies:
+    "@types/express-serve-static-core" "*"
+    "@types/mime" "*"
 
 "@types/shelljs@0.7.8":
   version "0.7.8"
@@ -299,6 +371,12 @@ cli-highlight@^1.1.4:
     parse5 "^3.0.3"
     yargs "^10.0.3"
 
+client-sessions@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/client-sessions/-/client-sessions-0.8.0.tgz#a7d8c5558ad5d56f2a199f3533eb654b5df893fd"
+  dependencies:
+    cookies "^0.7.0"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
@@ -359,6 +437,13 @@ config@^1.30.0:
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
+
+cookies@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/cookies/-/cookies-0.7.1.tgz#7c8a615f5481c61ab9f16c833731bcb8f663b99b"
+  dependencies:
+    depd "~1.1.1"
+    keygrip "~1.0.2"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -434,6 +519,10 @@ deep-extend@~0.4.0:
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
+
+depd@~1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
 
 detect-libc@^1.0.2:
   version "1.0.3"
@@ -805,6 +894,10 @@ just-extend@^1.1.27:
   version "1.1.27"
   resolved "https://registry.yarnpkg.com/just-extend/-/just-extend-1.1.27.tgz#ec6e79410ff914e472652abfa0e603c03d60e905"
 
+keygrip@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/keygrip/-/keygrip-1.0.2.tgz#ad3297c557069dea8bcfe7a4fa491b75c5ddeb91"
+
 kind-of@^3.0.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -1057,6 +1150,10 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+oauth@0.9.x:
+  version "0.9.15"
+  resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
+
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -1137,6 +1234,53 @@ parse5@^3.0.3:
   dependencies:
     "@types/node" "*"
 
+passport-google-oauth1@1.x.x:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/passport-google-oauth1/-/passport-google-oauth1-1.0.0.tgz#af74a803df51ec646f66a44d82282be6f108e0cc"
+  dependencies:
+    passport-oauth1 "1.x.x"
+
+passport-google-oauth20@1.x.x:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/passport-google-oauth20/-/passport-google-oauth20-1.0.0.tgz#3b960e8a1d70d1dbe794615c827c68c40392a5d0"
+  dependencies:
+    passport-oauth2 "1.x.x"
+
+passport-google-oauth@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/passport-google-oauth/-/passport-google-oauth-1.0.0.tgz#65f50633192ad0627a18b08960077109d84eb76d"
+  dependencies:
+    passport-google-oauth1 "1.x.x"
+    passport-google-oauth20 "1.x.x"
+
+passport-oauth1@1.x.x:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/passport-oauth1/-/passport-oauth1-1.1.0.tgz#a7de988a211f9cf4687377130ea74df32730c918"
+  dependencies:
+    oauth "0.9.x"
+    passport-strategy "1.x.x"
+    utils-merge "1.x.x"
+
+passport-oauth2@1.x.x:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/passport-oauth2/-/passport-oauth2-1.4.0.tgz#f62f81583cbe12609be7ce6f160b9395a27b86ad"
+  dependencies:
+    oauth "0.9.x"
+    passport-strategy "1.x.x"
+    uid2 "0.0.x"
+    utils-merge "1.x.x"
+
+passport-strategy@1.x.x:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
+
+passport@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/passport/-/passport-0.4.0.tgz#c5095691347bd5ad3b5e180238c3914d16f05811"
+  dependencies:
+    passport-strategy "1.x.x"
+    pause "0.0.1"
+
 path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
@@ -1168,6 +1312,10 @@ path-type@^2.0.0:
 pathval@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.0.tgz#b942e6d4bde653005ef6b71361def8727d0645e0"
+
+pause@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
 
 pidusage@^1.2.0:
   version "1.2.0"
@@ -1707,6 +1855,10 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
+uid2@0.0.x:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/uid2/-/uid2-0.0.3.tgz#483126e11774df2f71b8b639dcd799c376162b82"
+
 universalify@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"
@@ -1714,6 +1866,10 @@ universalify@^0.1.0:
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+
+utils-merge@1.x.x:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
 uuid@^3.1.0:
   version "3.2.1"

@@ -5,6 +5,12 @@ export interface ILocalConfig extends cfg.IConfig {
         host: string;
         port: number;
     };
+    providers: {
+        google: {
+            clientId: string;
+            clientSecret: string;
+        };
+    };
 }
 
 export const config = <ILocalConfig>cfg;

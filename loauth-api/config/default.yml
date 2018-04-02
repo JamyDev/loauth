@@ -1,3 +1,7 @@
 server:
   host: ''
   port: 3400
+providers:
+  google:
+    clientId: '978095592736-4hm8bkeva45bhbpo2t9r60qegulrdaho.apps.googleusercontent.com'
+    clientSecret: 'QTsu0tPeWxaBnzs8d1Dx-Q_0'
